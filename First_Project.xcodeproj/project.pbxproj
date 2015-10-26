@@ -14,6 +14,7 @@
 		C177911A1BB5B3ED002D837E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17791181BB5B3ED002D837E /* LaunchScreen.storyboard */; };
 		C17791251BB5B3ED002D837E /* First_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17791241BB5B3ED002D837E /* First_ProjectTests.swift */; };
 		C17791301BB5B3ED002D837E /* First_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177912F1BB5B3ED002D837E /* First_ProjectUITests.swift */; };
+		C1BECCD51BDE95F600B860B6 /* fu in Resources */ = {isa = PBXBuildFile; fileRef = C1BECCD41BDE95F600B860B6 /* fu */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C177912B1BB5B3ED002D837E /* First_ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = First_ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C177912F1BB5B3ED002D837E /* First_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First_ProjectUITests.swift; sourceTree = "<group>"; };
 		C17791311BB5B3ED002D837E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1BECCD41BDE95F600B860B6 /* fu */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fu; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				C17791161BB5B3ED002D837E /* Assets.xcassets */,
 				C17791181BB5B3ED002D837E /* LaunchScreen.storyboard */,
 				C177911B1BB5B3ED002D837E /* Info.plist */,
+				C1BECCD41BDE95F600B860B6 /* fu */,
 			);
 			path = First_Project;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C177911A1BB5B3ED002D837E /* LaunchScreen.storyboard in Resources */,
+				C1BECCD51BDE95F600B860B6 /* fu in Resources */,
 				C17791171BB5B3ED002D837E /* Assets.xcassets in Resources */,
 				C17791151BB5B3ED002D837E /* Main.storyboard in Resources */,
 			);
@@ -484,6 +488,7 @@
 				C17791361BB5B3ED002D837E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C17791371BB5B3ED002D837E /* Build configuration list for PBXNativeTarget "First_ProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				C17791391BB5B3ED002D837E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C177913A1BB5B3ED002D837E /* Build configuration list for PBXNativeTarget "First_ProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				C177913C1BB5B3ED002D837E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
