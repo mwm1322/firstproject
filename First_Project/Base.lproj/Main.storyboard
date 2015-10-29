@@ -132,11 +132,11 @@
                                     <segue destination="mVA-4I-YOb" kind="modal" id="pt5-yW-HUu"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEo-Ng-2bW">
-                                <rect key="frame" x="110" y="28" width="155" height="98"/>
-                                <state key="normal" title="Begin"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Och-m7-uTq">
+                                <rect key="frame" x="130" y="70" width="115" height="44"/>
+                                <state key="normal" title="create pattern"/>
                                 <connections>
-                                    <action selector="creategamePattern" destination="BYZ-38-t0r" eventType="touchUpInside" id="aRL-7y-aKC"/>
+                                    <action selector="startnewround" destination="BYZ-38-t0r" eventType="touchUpInside" id="lQM-NN-0tq"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -144,7 +144,6 @@
                         <constraints>
                             <constraint firstItem="Afk-FP-Zqt" firstAttribute="leading" secondItem="Y09-iA-iyV" secondAttribute="trailing" constant="10" id="59O-gB-zVG"/>
                             <constraint firstItem="Nwn-AL-SM7" firstAttribute="top" secondItem="ZXm-G3-XMU" secondAttribute="bottom" constant="40" id="5BZ-dc-sNe"/>
-                            <constraint firstItem="VBN-Hy-Eby" firstAttribute="top" secondItem="gEo-Ng-2bW" secondAttribute="bottom" constant="40" id="5az-Mt-d6m"/>
                             <constraint firstItem="VRd-4M-3aH" firstAttribute="top" secondItem="0pY-CM-NlS" secondAttribute="bottom" constant="20" id="6Vt-YI-ZTy"/>
                             <constraint firstItem="ZXm-G3-XMU" firstAttribute="leading" secondItem="qJW-3N-Tcc" secondAttribute="trailing" constant="10" id="7WV-Lx-aNy"/>
                             <constraint firstItem="Afk-FP-Zqt" firstAttribute="top" secondItem="Nwn-AL-SM7" secondAttribute="bottom" constant="20" id="C6k-vE-LfW"/>
@@ -159,7 +158,6 @@
                             <constraint firstItem="Afk-FP-Zqt" firstAttribute="top" secondItem="Nwn-AL-SM7" secondAttribute="bottom" constant="40" id="RUq-KH-c5X"/>
                             <constraint firstItem="qJW-3N-Tcc" firstAttribute="leading" secondItem="VBN-Hy-Eby" secondAttribute="trailing" constant="10" id="VAv-8Z-vAC"/>
                             <constraint firstItem="qe9-XO-YOV" firstAttribute="leading" secondItem="0pY-CM-NlS" secondAttribute="trailing" constant="10" id="WiH-aW-jrt"/>
-                            <constraint firstItem="ZXm-G3-XMU" firstAttribute="top" secondItem="gEo-Ng-2bW" secondAttribute="bottom" constant="40" id="XOU-5I-jY5"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Y09-iA-iyV" secondAttribute="bottom" constant="20" id="XU3-dy-HEE"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="VRd-4M-3aH" secondAttribute="bottom" constant="40" id="aQf-cs-D15"/>
                             <constraint firstItem="VBN-Hy-Eby" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="gFv-rV-1K5"/>
@@ -180,7 +178,6 @@
                             <constraint firstItem="Nwn-AL-SM7" firstAttribute="leading" secondItem="qe9-XO-YOV" secondAttribute="trailing" constant="10" id="qvn-P5-1yt"/>
                             <constraint firstItem="qJW-3N-Tcc" firstAttribute="leading" secondItem="VBN-Hy-Eby" secondAttribute="trailing" constant="10" id="sez-CX-5At"/>
                             <constraint firstItem="VRd-4M-3aH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="ucS-NF-yNg"/>
-                            <constraint firstItem="qJW-3N-Tcc" firstAttribute="top" secondItem="gEo-Ng-2bW" secondAttribute="bottom" constant="40" id="v0w-qY-oIw"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>

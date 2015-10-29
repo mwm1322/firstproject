@@ -212,7 +212,7 @@ class ViewController: UIViewController {
             let winaction = UIAlertAction(title: "Awesome", style: .Default, handler: nil)
             winalert.addAction(winaction)
             presentViewController(winalert, animated: true, completion: nil)
-            startnewround()
+            gamePattern = [0]
         }
         if(winlose == false){
             //print("LOSE")
@@ -222,11 +222,11 @@ class ViewController: UIViewController {
             let loseaction = UIAlertAction(title: "Darn", style: .Default, handler: nil)
             losealert.addAction(loseaction)
             presentViewController(losealert, animated: true, completion: nil)
-            startnewround()
+            gamePattern = [0]
         }
     }
     
-    func startnewround(){
+    @IBAction func startnewround(){
         gamePattern = [0]
         playPattern = []
         for var i = 0; i < 5; ++i {
